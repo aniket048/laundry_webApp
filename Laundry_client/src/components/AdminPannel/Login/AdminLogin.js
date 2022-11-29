@@ -20,7 +20,7 @@ const AdminLogin = () => {
 				<div className="container">
 					<div className="text-center py-4">
 						<Link to="/admin" class="text-info nav-link">
-							<h2>Smart Dhopa Admin Pannel</h2>
+							<h2>IIITL Laundry Services Admin Pannel</h2>
 						</Link>
 					</div>
 
