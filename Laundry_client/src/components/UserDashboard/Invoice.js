@@ -17,7 +17,7 @@ const Invoice = (props) => {
 	return (
 		<div className="print-container">
 			<div className="d-flex justify-content-center mb-4">
-				<h2 className="text-info head-title mt-5">Smart Dhopa Online Laundry Service</h2>
+				<h2 className="text-info head-title mt-5">IIITL Laundry Services</h2>
 			</div>
 			<div className="row">
 				<div className="col-md-8">
