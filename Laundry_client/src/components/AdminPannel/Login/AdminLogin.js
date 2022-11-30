@@ -32,7 +32,7 @@ const AdminLogin = () => {
 							<input
 								name="email"
 								className="form-control"
-								value="smart.dhopa@gmail.com"
+								value="iiitllaundry@iiitl.ac.in"
 								ref={register({ required: true })}
 								placeholder="Email"
 							/>
@@ -43,7 +43,7 @@ const AdminLogin = () => {
 							<input
 								type="password"
 								name="password"
-								value="Smart@123"
+								value="iiitl@1234"
 								className="form-control"
 								ref={register({ required: true })}
 								placeholder="Password"
