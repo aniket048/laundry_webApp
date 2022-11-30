@@ -21,8 +21,8 @@ const Sidebar = () => {
 		<div className="sidebar d-flex flex-column justify-content-between py-4 px-3" style={{ height: '100vh' }}>
 			<ul className="list-unstyled nav flex-column">
 				<li className="nav-item">
-					<Link to="/admin" className="text-white nav-link ">
-						<span>Smart Dhopa</span>
+					<Link to="/admin/dashboard" className="text-white nav-link ">
+						<span>IIITL Laundry</span>
 					</Link>
 				</li>
 				<li className="nav-item">
@@ -50,11 +50,11 @@ const Sidebar = () => {
 						<FontAwesomeIcon icon={faUserPlus} /> <span>Registration</span>
 					</Link>
 				</li>
-				<li className="nav-item">
+				{/* <li className="nav-item">
 					<Link to="/admin/support" className="text-white nav-link ">
 						<FontAwesomeIcon icon={faMailBulk} /> <span>Support</span>
 					</Link>
-				</li>
+				</li> */}
 			</ul>
 			<div>
 				<ul className="list-unstyled nav">

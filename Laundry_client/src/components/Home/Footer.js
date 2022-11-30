@@ -32,7 +32,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className='footer-bottom d-flex justify-content-center'>
-                    <p className='text-secondary'>Copyright &copy; 2022 Developed by IIITL</p>
+                    <p className='text-secondary'>Copyright &copy; 2022 Developed by IIITL Laundry Services</p>
                 </div>
             </Container>
         </footer>

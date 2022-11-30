@@ -131,7 +131,7 @@ const Header = (props) => {
 
 				<Modal toggle={() => setModalLive(false)} isOpen={modalLive}>
 					<div className="modal-header">
-						<h5 className="modal-title text-success" id="exampleModalLiveLabel">
+						<h5 className="modal-title text-info" id="exampleModalLiveLabel">
 							Email Verification
 						</h5>
 						<button aria-label="Close" className="close" type="button" onClick={() => setModalLive(false)}>
@@ -142,11 +142,11 @@ const Header = (props) => {
 						<p>Verify your email for IIITL Laundry Services Web App</p>
 					</div>
 					<div className="modal-footer">
-						<Button color="success" type="button" onClick={() => setModalLive(false)}>
+						<Button color="info" type="button" onClick={() => setModalLive(false)}>
 							Close
 						</Button>
 						<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
-							<Button color="success" type="button" onClick={() => setModalLive(false)}>
+							<Button color="info" type="button" onClick={() => setModalLive(false)}>
 								Go to Email Inbox
 							</Button>
 						</a>

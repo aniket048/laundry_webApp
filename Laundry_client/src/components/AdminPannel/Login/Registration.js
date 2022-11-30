@@ -33,7 +33,7 @@ const Registration = () => {
 						<div className="container">
 							<div className="text-center mt-4">
 								<Link to="/admin/registration" class="text-info nav-link">
-									<h2>Smart Dhopa Admin Registration</h2>
+									<h2>IIITL Laundry Services Admin Registration</h2>
 								</Link>
 							</div>
 
@@ -136,7 +136,7 @@ const Registration = () => {
 							show
 							fade
 							iconClassName="text-info"
-							title="Smart Dhopa"
+							title="IIITL Laundry Services"
 							message="See? Just like this."
 							text="just now"
 						/>
@@ -144,7 +144,7 @@ const Registration = () => {
 							show
 							fade
 							iconClassName="text-info"
-							title="Smart Dhopa"
+							title="IIITL Laundry Services"
 							message="Heads up, toasts will stack automatically"
 							text="2 seconds ago"
 						/>

@@ -54,7 +54,7 @@ const AdminLogin = () => {
 
 						<div className="form-group text-center">
 							<button className="btn btn-info w-25" type="submit">
-								Log In
+							<Link to="/admin/dashboard" class="btnl">Log In</Link>
 							</button>
 						</div>
 					</form>

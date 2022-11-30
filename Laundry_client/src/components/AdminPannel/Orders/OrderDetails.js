@@ -1,3 +1,6 @@
+import { faLeaf, faRupeeSign, faMedal, faMoneyBillAlt, faSoap, faTruck } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 import { Table } from 'reactstrap';
 import './Orders.css';
@@ -93,24 +96,24 @@ const OrderDetails = (props) => {
 							<td>{item.category}</td>
 							<td>{item.name}</td>
 							<td>{item.quantity}</td>
-							<td>৳ {item.price * item.quantity}</td>
+							<td><FontAwesomeIcon icon={faRupeeSign} /> {item.price * item.quantity}</td>
 						</tr>
 					))}
 
 					<tr>
 						<td colSpan="4" />
 						<th>Sub Total:</th>
-						<th>৳ {subTotal}</th>
+						<th><FontAwesomeIcon icon={faRupeeSign} /> {subTotal}</th>
 					</tr>
 					<tr>
 						<td colSpan="4" />
 						<th>Delivery Charge: </th>
-						<th>৳ {deliveryCharge}</th>
+						<th><FontAwesomeIcon icon={faRupeeSign} /> {deliveryCharge}</th>
 					</tr>
 					<tr>
 						<td colSpan="4" />
 						<th>Grand Total: </th>
-						<th>৳ {grandTotal}</th>
+						<th><FontAwesomeIcon icon={faRupeeSign} /> {grandTotal}</th>
 					</tr>
 				</tbody>
 			</Table>

@@ -24,3 +24,17 @@
 	color: #2ca8ff;
 	cursor: pointer;
 }
+
+.btnl
+{
+	color: #ffffff;
+	font-size:15px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.btnl:hover
+{
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}

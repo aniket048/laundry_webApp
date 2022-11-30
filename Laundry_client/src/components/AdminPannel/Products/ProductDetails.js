@@ -1,4 +1,6 @@
-import { faPencilAlt, faPlus, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
+// import { faLeaf, faRupeeSign, faMedal, faMoneyBillAlt, faSoap, faTruck } from '@fortawesome/free-solid-svg-icons';
+
+import { faPencilAlt, faPlus, faTrashAlt, faRupeeSign } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -244,7 +246,7 @@ const ProductDetails = (props) => {
 
 							<td>{item.name}</td>
 							{props.viewProduct[0].service == 'Subscription' && <td>{item.description}</td>}
-							<td>৳ {item.price}</td>
+							<td><FontAwesomeIcon icon={faRupeeSign} /> {item.price}</td>
 							{props.viewProduct[0].service == 'Emergency Service' && <td>{item.subservice}</td>}
 							<td>
 								<button

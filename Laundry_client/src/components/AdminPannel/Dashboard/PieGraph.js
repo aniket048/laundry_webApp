@@ -128,7 +128,7 @@ const PieGraph = () => {
 			</div>
 
 			<div className="footer-bottom d-flex justify-content-center mt-4">
-				<p className="text-secondary mt-5 mr-5 pr-5">Copyright &copy; 2020 Developed by Prionto Abdullah </p>
+				<p className="text-secondary mt-5 mr-5 pr-5">Copyright &copy; 2022 Developed by IIITL Laundry Services</p>
 			</div>
 		</div>
 	);
